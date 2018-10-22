@@ -38,6 +38,7 @@ int Trick::Executive::loop_multi_thread() {
 
     JobData * depend_job ;
     unsigned int ii ;
+    std::stringstream error_message ;
     Trick::ScheduledJobQueue * main_sched_queue ;
     int ret = 0 ;
 

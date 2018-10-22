@@ -383,6 +383,7 @@ void PrintAttributes::printIOMakefile() {
     std::ofstream io_link_list ;
     std::ofstream ICG_processed ;
     std::ofstream ext_lib ;
+    unsigned int ii ;
 
     // Don't create a makefile if we didn't process any files.
     if ( out_of_date_io_files.empty() ) {
